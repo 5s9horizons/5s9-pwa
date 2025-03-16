@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - 5s9 PWA</title>
+    <link rel="stylesheet" href="/5s9-pwa/css/settings.css">
+</head>
+<body>
+    <header>
+        <h1 data-i18n="settings.title">Settings</h1>
+    </header>
+    <main>
+        <section>
+            <h2 data-i18n="settings.language">Choose your language:</h2>
+            <label for="language-select"></label>
+            <select id="language-select">
+                <option value="en" data-i18n="settings.english">English</option>
+                <option value="fr" data-i18n="settings.french">French</option>
+            </select>
+        </section>
+        <section>
+            <h2 data-i18n="settings.highContrast">High Contrast Mode:</h2>
+            <input type="checkbox" id="high-contrast">
+            
+            <h2 data-i18n="settings.largeText">Large Text Size:</h2>
+            <input type="checkbox" id="large-text">
+        </section>
+    </main>
+    <script src="/5s9-pwa/js/settings.js"></script>
+</body>
+</html>
