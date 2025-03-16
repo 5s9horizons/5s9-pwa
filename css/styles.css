@@ -1,0 +1,39 @@
+body.high-contrast {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.high-contrast a {
+    color: #00ff00;
+}
+
+body.large-text {
+    font-size: 1.25em;
+}
+
+.install-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.install-banner button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+.install-banner button:hover {
+    background-color: #f1f1f1;
+}
